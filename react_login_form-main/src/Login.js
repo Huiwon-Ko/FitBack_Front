@@ -1,8 +1,8 @@
 import { useRef, useState, useEffect, useContext } from 'react';
 import AuthContext from "./context/AuthProvider";
 import { Link } from "react-router-dom"
-import GoogleButton from './GoogleButton';
-
+import GoogleButton from './components/GoogleButton';
+import './css/Login_Register.css';
 
 import axios from './api/axios';
 import Register from './Register';
